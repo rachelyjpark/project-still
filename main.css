@@ -1,0 +1,364 @@
+body {
+  background-color: black;
+}
+
+.frame {
+ width: 1000px;
+  height: 600px;
+  background-image: linear-gradient(#fdf7db, #90764f);
+  margin: 30px auto;
+  position: relative;
+  z-index: -4;
+}
+
+
+.table {
+	position: absolute;
+	top: 300px;
+	left:90px;
+	z-index: -3;
+	bottom: 0;
+	width: 700px;
+	height: 150px;
+	background-color: beige;
+	transform: skew(50deg);
+}
+
+.vase {
+  position: absolute;
+  border-radius: 7px;
+  width: 10%;
+  height: 50%;
+  z-index: 4;
+  top: 10%;
+  left: 38%;
+  background-image: linear-gradient(#e6e6e6, #1a1a1a);
+  opacity: 0.4;
+ filter: drop-shadow(0 0 50px #333);
+     border-radius: 0% 0% 40% 30% / 0% 0% 40% 30%;
+  
+}
+
+.vaseholder {
+  position: absolute;
+  border-radius: 100px;
+  width: 8%;
+  height: 8%;
+  z-index: 2;
+  top: 59%;
+  left: 38.5%;
+   filter: drop-shadow(0 0 50px #333);
+background-image: linear-gradient(#1a1a1a,#e6e6e6 );
+  opacity: 0.4;
+    border-radius: 40% 30% 0% 0% / 100% 100% 0% 0%;
+}
+ 
+.stem1 {
+	position: absolute;
+	background: #666633;
+	border-radius: 8px;
+	width: .60%;
+	height: 60%;
+	z-index: 2;
+	top: 0%;
+	left: 44%;
+}
+
+.stem2 {
+	position: absolute;
+	background: #446600;
+	border-radius: 8px;
+	width: .60%;
+	height: 60%;
+	z-index: 2;
+	top: 0%;
+	left: 44%;
+	transform: rotate(3deg);
+}
+
+.stem3 {
+	position: absolute;
+	background: #666633;
+	border-radius: 8px;
+	width: .60%;
+	height: 60%;
+	z-index: 2;
+	top: 0%;
+	left: 40%;
+	transform: rotate(-3deg);
+
+}
+
+.stem4{
+	position: absolute;
+	background: #446600;
+	border-radius: 8px;
+	width: .60%;
+	height: 59%;
+	z-index: 2;
+	top: 0%;
+	left: 42%;
+	transform: rotate(6deg);
+}
+
+.stem5 {
+	position: absolute;
+	background: #666633;
+	border-radius: 8px;
+	width: .60%;
+	height: 60%;
+	z-index: 2;
+	top: 0%;
+	left: 42%;
+	transform: rotate(-3deg);
+}
+.stem6 {
+	position: absolute;
+	background:#446600;
+	border-radius: 8px;
+	width: .60%;
+	height: 60%;
+	z-index: 2;
+	top: 0%;
+	left: 45%;
+	transform: rotate(3deg);
+}
+.stem7 {
+	position: absolute;
+	background: #666633;
+	border-radius: 8px;
+	width: .60%;
+	height: 7%;
+	z-index: 2;
+	top: 0%;
+	left: 46%;
+	transform: rotate(2deg);
+}
+.stem8 {
+	position: absolute;
+	background: #446600;
+	border-radius: 8px;
+	width: .60%;
+	height: 56%;
+	z-index: 2;
+	top: 0%;
+	left: 45%;
+	transform: rotate(-3deg);
+}
+.stem9 {
+	position: absolute;
+	background:#666633;
+	border-radius: 8px;
+	width: .60%;
+	height: 60%;
+	z-index: 2;
+	top: 0%;
+	left: 42%;
+	transform: rotate(3deg);
+}
+.stem10{
+	position: absolute;
+	background: #446600;
+	border-radius: 8px;
+	width: .60%;
+	height: 55%;
+	z-index: 2;
+	top: 0%;
+	left: 46%;
+	
+}
+.stem11{
+	position: absolute;
+	background: #666633;
+	border-radius: 8px;
+	width: .60%;
+	height: 54%;
+	z-index: 2;
+	top: 0%;
+	left: 39.5%;
+	transform: rotate(3deg);
+}
+.stem12{
+		position: absolute;
+	background: #446600;
+	border-radius: 8px;
+	width: .60%;
+	height: 60%;
+	z-index: 2;
+	top: 0%;
+	left: 41%;
+	transform: rotate(2deg);
+}
+.stem13{
+		position: absolute;
+	background: #666633;
+	border-radius: 8px;
+	width: .60%;
+	height: 60%;
+	z-index: 2;
+	top: 0%;
+	left: 42%;
+	transform: rotate(-5deg);
+
+}
+.petal1 {
+	position: absolute;
+	background: #446600;
+	width: 5%;
+	height: 10%;
+	top: 0%;
+	left: 44%;
+	border-radius: 40%;
+	z-index: 3;
+	-webkit-clip-path: polygon(50% 0%, 83% 12%, 94% 43%, 70% 75%, 60% 100%, 37% 100%, 28% 75%, 4% 41%, 17% 12%);
+}
+.petal2 {
+	position: absolute;
+	background: #446600;
+	width: 5%;
+	height: 10%;
+	top: 0%;
+	left: 37%;
+	border-radius: 40%;
+	z-index: 3;
+ -webkit-clip-path: polygon(50% 0%, 83% 12%, 94% 43%, 70% 75%, 60% 100%, 37% 100%, 28% 75%, 4% 41%, 17% 12%);
+}
+
+.petal3 {
+	position: absolute;
+	background: #446600;
+	width: 5%;
+	height: 8%;
+	top: 0%;
+	left: 42%;
+	border-radius: 10%;
+	z-index: 3;
+	transform: rotate(2deg)
+ -webkit-clip-path: polygon(50% 0%, 83% 12%, 94% 43%, 70% 75%, 60% 100%, 37% 100%, 28% 75%, 4% 41%, 17% 12%);
+}
+
+.petal4 {
+	position: absolute;
+	background: #446600;
+	height: 10%;
+	left: 39%;
+	width: 3%;
+	border-radius: 4px;
+	z-index: 3;
+}
+.petal5 {
+	position: absolute;
+	background: #446600;
+	height: 5%;
+	top: 5%;
+	left: 43%;
+	z-index:3;
+	width: 3%;
+	border-radius: 3px;
+}
+
+ .pumpkin2 {
+	 position: absolute;
+	 left: 440px;
+	 top: 358px;
+     width: 70px;
+     z-index: 3;
+             filter: drop-shadow(0 0 7px #333);
+      height: 75px;
+      background: #ffe270;
+      border-radius: 50%;
+     transform: rotate(-100deg);
+    }
+  .pumpkinpart2 {
+  	position: absolute;
+  	left: 460px;
+  	top: 335px;
+  	width: 100px;
+  	z-index: 3;
+      height: 75px;
+      background: #ffe270;
+      border-radius: 40% 60% 40% 40% / 10% 40% 40% 10%;
+      transform: rotate(-35deg);
+  }
+  .pumpkin2stem {
+  	position: absolute;
+  	left: 450px;
+ 	  top: 400px;
+      width: 8px;
+      height: 8px;
+      z-index: 3;
+      background-color: #c68c53;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  }
+
+ .pumpkin {
+ 	  position: absolute;
+ 	  left: 550px;
+ 	  top: 220px;
+      width: 156px;
+      height: 150px;
+       background-color: #df6616;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    }
+
+  .pumpkinstem {
+  		position: absolute;
+  	left: 605px;
+ 	  top: 195px;
+      width: 50px;
+      height: 76px;
+      background-color: #df6616;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  }
+  .pumpkintop {
+	position: absolute;
+    	left: 625px;
+    	top: 185px;
+    	width: 20px;
+      height: 20px;
+ background-image: linear-gradient( #ffdcb9, #4d2600);
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  }
+  .pumpkinneck {
+  	position: absolute;
+  	left: 575.5px;
+  	top:195px;
+  	  width: 0;
+      height:0 px;
+      border-left: 52px solid transparent;
+      border-right: 52px solid transparent;
+       border-bottom: 60px solid #df6616;
+  }
+
+    .pot {
+  	position: absolute;
+  	left: 100px;
+  	top: 230px;
+  	  width: 200px;
+      height: 160px;
+      border-radius: 100px / 70px;
+    background-image: linear-gradient(#996633, #331100);
+    }
+
+   .potlid {
+     	position: absolute;
+   	left: 110px;
+   	top: 230px;
+   	  width: 180px;
+      height: 38px;
+         background-image: linear-gradient(#996633, #331100);
+      border-radius: 200px / 50px;
+    
+    }
+    .potbutton {
+    	position: absolute;
+    	left: 190px;
+    	top: 215px;
+    	width: 20px;
+      height: 20px;
+      background: #392613;
+      border-radius: 50%
+    }
+    
+
+
